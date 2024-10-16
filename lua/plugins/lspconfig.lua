@@ -44,6 +44,12 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["docker_compose_language_service"] = function()
+				nvim_lsp["docker_compose_language_service"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+				})
+			end,
 			["tailwindcss"] = function()
 				nvim_lsp["tailwindcss"].setup({
 					on_attach = on_attach,

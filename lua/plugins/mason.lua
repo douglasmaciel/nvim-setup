@@ -11,6 +11,7 @@ return {
 			automatic_installation = true,
 			ensure_installed = {
 				"cssls",
+				"docker_compose_language_service",
 				"eslint",
 				"html",
 				"jsonls",
