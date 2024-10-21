@@ -15,5 +15,6 @@ return {
 		keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", { desc = "Find string in cwd" })
 		keymap.set("n", "<leader>fs", "<cmd>Telescope git_status<cr>", { desc = "Find string under cursor in cwd" })
 		keymap.set("n", "<leader>fc", "<cmd>Telescope git commits<cr>", { desc = "Find todos" })
+		keymap.set("n", "<leader>gf", "<cmd>Telescope git files<cr>", { desc = "Fuzzy find files in git repo" })
 	end,
 }
